@@ -1,0 +1,27 @@
+{
+  "name": "personalbdq-api",
+  "version": "1.0.0",
+  "description": "Sistema de gerenciamento de questões",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaelson13/personalbdq-api.git"
+  },
+  "author": "Jaelson Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaelson13/personalbdq-api/issues"
+  },
+  "homepage": "https://github.com/jaelson13/personalbdq-api#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.4.14"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
