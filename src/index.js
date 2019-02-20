@@ -9,9 +9,9 @@ mongoose.connect('mongodb://personalbdq:admin123@ds139295.mlab.com:39295/persona
 
 app.use(express.json())
 
-app.get('/', (req, res) => {
-    return res.send('Commit inicial')
-})
+//Routes
+require('./routes')(app)
+
 
 app.listen('3000', () => {
     console.log("Vai dar certo")
